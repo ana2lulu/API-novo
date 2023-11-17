@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(5, 13, 58);
+}
+.container-circulos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+
+  }
+  
+  .circle img {
+    position: unset;
+    bottom: 0;
+    width: 180%;
+  }
+
+.circle:nth-child(1){
+    position: absolute;
+    bottom: 250px;
+    left: 350px;
+}
+.circle:nth-child(2){
+    position: absolute;
+    bottom: 440px;
+    left: 460px;
+}
+.circle:nth-child(3){
+    position: absolute;
+    bottom: 60px;
+    left: 460px;
+}
+.circle:nth-child(4){
+    position: absolute;
+    bottom: 250px;
+    right: 350px;
+}
+.circle:nth-child(5){
+    position: absolute;
+    bottom: 440px;
+    right: 460px;
+}
+.circle:nth-child(6){
+    position: absolute;
+    bottom: 60px;
+    right: 460px;
+}
